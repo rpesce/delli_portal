@@ -1,13 +1,13 @@
 			<?php get_header(); ?>
-			<div><a name="home"></a></div>
+			<div><a class="anchor-offset" name="home"></a></div>
 			<div class="row no-gutters">
 				<div class="col">
 					<?php
 						$randomDecisor = mt_rand(1,2);
 						if($randomDecisor == 1) {
-							$backgroundImage = get_theme_file_uri('/images/background.png');
+							$backgroundImage = get_theme_file_uri('/images/background.jpg');
 						} else {
-							$backgroundImage = get_theme_file_uri('/images/background2.png');
+							$backgroundImage = get_theme_file_uri('/images/background2.jpg');
 						}?>
 					<div class="hero-section" style="background-image: url(<?php echo $backgroundImage ?>)">
 						<div>
@@ -19,7 +19,7 @@
 				</div>
 			</div>
 
-			<div class="delli-section" style="background-image: url(<?php echo get_theme_file_uri('/images/background3.png') ?>)">
+			<div class="delli-section" style="background-image: url(<?php echo get_theme_file_uri('/images/background3.jpg') ?>)">
 				<div class="row no-gutters">
 					<div class="col">
 						<div class="background-dark">
@@ -71,7 +71,7 @@
 				</div>
 			</div>
 
-			<a name="delivery"></a>
+			<a class="anchor-offset" name="delivery"></a>
 			<div class="row no-gutters">
 				<div class="col">
 					<div class="delivery-section">
@@ -115,7 +115,7 @@
 				</div>
 			</div>
 
-			<a name="cardapio"></a>			
+			<a class="anchor-offset" name="cardapio1"></a>
 			<section id="cardapio">
 				<div class="row no-gutters">
 					<div class="col">
@@ -384,7 +384,7 @@
 				</div>
 			</section> 
 
-			<a name="galeria"></a>
+			<a class="anchor-offset" name="galeria"></a>
 			<div class="row no-gutters">
 				<div class="col">
 					<div class="galeria-section">
@@ -394,102 +394,102 @@
 							<div class="row no-gutters">
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(1)" src='<?php echo get_theme_file_uri('/images/1.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(1)" src='<?php echo get_theme_file_uri('/images/1.jpg'); ?>' alt="Fotos" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(2)" src='<?php echo get_theme_file_uri('/images/2.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(2)" src='<?php echo get_theme_file_uri('/images/2.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(3)" src='<?php echo get_theme_file_uri('/images/3.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(3)" src='<?php echo get_theme_file_uri('/images/3.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(4)" src='<?php echo get_theme_file_uri('/images/4.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(4)" src='<?php echo get_theme_file_uri('/images/4.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(5)" src='<?php echo get_theme_file_uri('/images/5.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(5)" src='<?php echo get_theme_file_uri('/images/5.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(6)" src='<?php echo get_theme_file_uri('/images/6.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(6)" src='<?php echo get_theme_file_uri('/images/6.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(7)" src='<?php echo get_theme_file_uri('/images/7.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(7)" src='<?php echo get_theme_file_uri('/images/7.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(8)" src='<?php echo get_theme_file_uri('/images/8.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(8)" src='<?php echo get_theme_file_uri('/images/8.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(9)" src='<?php echo get_theme_file_uri('/images/9.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(9)" src='<?php echo get_theme_file_uri('/images/9.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(10)" src='<?php echo get_theme_file_uri('/images/10.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(10)" src='<?php echo get_theme_file_uri('/images/10.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(11)" src='<?php echo get_theme_file_uri('/images/11.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(11)" src='<?php echo get_theme_file_uri('/images/11.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(12)" src='<?php echo get_theme_file_uri('/images/12.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(12)" src='<?php echo get_theme_file_uri('/images/12.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(13)" src='<?php echo get_theme_file_uri('/images/13.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(13)" src='<?php echo get_theme_file_uri('/images/13.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(14)" src='<?php echo get_theme_file_uri('/images/14.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(14)" src='<?php echo get_theme_file_uri('/images/14.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(15)" src='<?php echo get_theme_file_uri('/images/15.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(15)" src='<?php echo get_theme_file_uri('/images/15.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(16)" src='<?php echo get_theme_file_uri('/images/16.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(16)" src='<?php echo get_theme_file_uri('/images/16.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(17)" src='<?php echo get_theme_file_uri('/images/17.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(17)" src='<?php echo get_theme_file_uri('/images/17.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(18)" src='<?php echo get_theme_file_uri('/images/18.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(18)" src='<?php echo get_theme_file_uri('/images/18.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(19)" src='<?php echo get_theme_file_uri('/images/19.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(19)" src='<?php echo get_theme_file_uri('/images/19.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 								<div class="col-12 col-md-3">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(20)" src='<?php echo get_theme_file_uri('/images/20.png'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(20)" src='<?php echo get_theme_file_uri('/images/20.jpg'); ?>' alt="Lights" style="width:100%">
 									</div>
 								</div>
 							</div>
@@ -504,64 +504,64 @@
 					<span class="close cursor" onclick="closeModal()">&times;</span>
 					<div class="modal-content">
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/1.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/1.jpg'); ?>" style="width:100%">
 						</div>
 					    <div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/2.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/2.jpg'); ?>" style="width:100%">
 						</div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/3.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/3.jpg'); ?>" style="width:100%">
 						</div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/4.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/4.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/5.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/5.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/6.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/6.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/7.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/7.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/8.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/8.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/9.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/9.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/10.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/10.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/11.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/11.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/12.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/12.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/13.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/13.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/14.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/14.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/15.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/15.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/16.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/16.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/17.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/17.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/18.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/18.jpg'); ?>" style="width:100%">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/19.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/19.jpg'); ?>" style="width:100%">
 					    </div> 
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/20.png'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/20.jpg'); ?>" style="width:100%">
 					    </div>
 
 					    <!-- Next/previous controls -->
@@ -615,7 +615,7 @@
 				}
 			</script>
 
-			<a name="contato"></a>
+			<a class="anchor-offset" name="contato"></a>
 			<div class="row no-gutters">
 				<div class="col-sm-12">
 					<div class="contato-section" style="background-image: url(<?php echo get_theme_file_uri('/images/background4.jpg') ?>)">
@@ -632,7 +632,7 @@
 					</div>
 				</div>
 			</div>
-			<a name="mapa"></a>
+			<a class="anchor-offset" name="mapa"></a>
 			<div class="row no-gutters">
 				<div class="col-sm-12">
 					<div class="mapa-section">

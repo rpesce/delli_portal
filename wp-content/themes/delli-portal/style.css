@@ -32,6 +32,8 @@ body {
 /* NAVBAR */
 nav .nav-item {
 	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
 }
 .bg-yellow {
 	background-color: rgba(229,158,55,0.95);
@@ -57,6 +59,13 @@ nav li a:hover {
 }
 .nav-social-menu {
 	padding: 0.5em 0;
+}
+/* ANCHORS */
+.anchor-offset {
+    display: block !important;
+    position: relative !important;
+    top: -3.7em;
+    visibility: hidden;
 }
 /* HERO SECTION */
 .hero-section {
@@ -111,7 +120,7 @@ nav li a:hover {
 	width: 2em;
 }
 .delli-section p {
-	font-weight: 200;
+	font-weight: 300;
 	line-height: 2em;
 	letter-spacing:0.05em;
 	margin: 0 !important;
@@ -193,7 +202,7 @@ nav li a:hover {
 }
 /* CARDAPIO SECTION: cardapio-section table; */
 .cardapio-section--white {
-	background-color: rgba(227,227,227,0.96);
+	background-color: rgba(227,227,227,0.3);
 }
 .cardapio-section {
 	background-position: center top;
@@ -478,17 +487,17 @@ footer ul li {
 		margin: auto;
 	}
 	nav li {
-		font-size: 1em;
+		font-size: 0.8em;
 		padding: 0.1em 0em;
 		display: inline-block;
 	}
 	.nav-text--size {
 		color: #0D0C0C;
 		padding: 0 0.5em;
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 	.nav-item img {
-		width: 1.7em;
+		width: 1.6em;
 	}
 	.nav-social-menu {
 		padding: 0 0 0 1em;
@@ -527,6 +536,16 @@ footer ul li {
 }
 @media (min-width: 992px) {
 	/* NAVBAR */
+	nav li {
+		font-size: 1em;
+		padding: 0.1em 0em;
+		display: inline-block;
+	}
+	.nav-text--size {
+		color: #0D0C0C;
+		padding: 0 0.5em;
+		font-size: 1em;
+	}
 	nav .navbar-brand img {
 		width: 5em;
 	}

@@ -27,24 +27,22 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav mr-auto">
 					<div>
-						<li class="nav-item d-md-none d-lg-inline-block">
-							<a class="nav-link" href="#home">Delli Portal</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#delivery">Pe&ccedil;a em casa</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#cardapio">Card&aacute;pio</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#mapa">Onde estamos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contato">Contato</a>
-						</li>
-						<li class="nav-item nav-social-menu d-none d-md-inline-block">
-							<a href="//instagram.com/delliportal" target="_blank"><img src='<?php echo get_theme_file_uri('/images/instagram_icon_dark.png'); ?>'></a>
-						</li>
+						<li class="nav-item d-md-none d-lg-inline-block"><a href="#home" class="nav-link d-none d-sm-block">Delli Portal</a></li>
+						<li class="nav-item d-md-none d-lg-inline-block"><div class="d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse"><a href="#home" class="nav-link">Delli Portal</a></div></li>
+
+						<li class="nav-item"><a href="#delivery" class="nav-link d-none d-sm-block">Pe&ccedil;a em casa</a></li>
+						<li class="nav-item"><div class="d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse"><a href="#delivery" class="nav-link">Pe&ccedil;a em casa</a></div></li>
+
+						<li class="nav-item"><a href="#cardapio1" class="nav-link d-none d-sm-block">Card&aacute;pio</a></li>
+						<li class="nav-item"><div class="d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse"><a href="#cardapio1" class="nav-link">Card&aacute;pio</a></div></li>
+
+						<li class="nav-item"><a href="#mapa" class="nav-link d-none d-sm-block">Onde estamos</a></li>
+						<li class="nav-item"><div class="d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse"><a href="#mapa" class="nav-link">Onde estamos</a></div></li>
+
+						<li class="nav-item"><a href="#contato" class="nav-link d-none d-sm-block">Contato</a></li>
+						<li class="nav-item"><div class="d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse"><a href="#contato" class="nav-link">Contato</a></div></li>
+
+						<li class="nav-item nav-social-menu d-none d-md-inline-block"><a href="//instagram.com/delliportal" target="_blank"><img src='<?php echo get_theme_file_uri('/images/instagram_icon_dark.png'); ?>'></a></li>
 						<li class="nav-item nav-text--size d-none d-md-inline-block"><img src='<?php echo get_theme_file_uri('/images/whatsapp_icon_dark.png'); ?>'> (21) 2495.6810</li>
 					</div>
 				</ul>
