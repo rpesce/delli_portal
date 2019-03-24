@@ -171,7 +171,7 @@ nav li a:hover {
 	padding: 4em 1em;
 }
 .delivery-section-body .form-row {
-	padding: 0.3em 0em;
+	padding: 0.35em 0;
 }
 .delivery-section-body input {
 	font-weight: 200 !important;
@@ -180,23 +180,31 @@ nav li a:hover {
 	height: 3em;
 	box-shadow: 3px 3px 2px #DCC48E;
 }
+.delivery-section-body textarea {
+	font-weight: 200 !important;
+	border-radius: 0px;
+	border: none;
+	height: 8em;
+	box-shadow: 3px 3px 2px #DCC48E;
+}
 .delivery-section-body .obs {
 	font-weight: 200 !important;
 	height: 8em;
 }
-.delivery-section-body button {
-	font-weight: 300;	
+#enviar_button {
+	text-transform: uppercase;
+	font-weight: 400;
 	border-radius: 0;
 	border: none;
 	background-color: rgba(62,30,15,1);
-	margin-top: 2em;
-	padding: 1em 4em;
+	margin-top: 1em;
+	padding: 0.8em 4em 1em 4em;
 	box-shadow: 3px 3px 2px #DCC48E;	
 }
-.delivery-section-body button:hover {
+#enviar_button:hover {
 	background-color: rgba(105,51,3,1);
 }
-.delivery-section-body button:focus {
+#enviar_button:focus {
 	background-color: rgba(62,30,15,1) !important;
 	box-shadow: none !important;
 }

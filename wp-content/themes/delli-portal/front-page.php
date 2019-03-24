@@ -80,35 +80,7 @@
 					<div class="delivery-section-body" style="background-image: url(<?php echo get_theme_file_uri('/images/delivery_background.jpg') ?>)">
 						<div class="delivery-section-body--yellow">
 							<div class="container">
-							<form>
-							  	<div class="form-row">
-							    	<div class="col">
-							      		<label style="display:none;">Nome:</label>
-							      		<input type="text" class="form-control" placeholder="Nome:">
-							    	</div>
-							    	<div class="col">
-							      		<label style="display:none;">Email:</label>
-							      		<input type="email" class="form-control" placeholder="E-mail:">
-							    	</div>
-							    	<div class="col">
-							      		<label style="display:none;">Telefone:</label>
-							      		<input type="number" class="form-control" placeholder="Telefone:">
-							    	</div>
-							  	</div>
-							  	<div class="form-row">
-							    	<div class="col">
-							      		<label style="display:none;">Seu pedido:</label>
-							      		<input type="text" class="form-control" placeholder="Seu pedido:">
-							    	</div>
-						    	</div>
-						    	<div class="form-row">
-							    	<div class="col">
-							      		<label style="display:none;">Observa&ccedil;&otilde;es:</label>
-							      		<textarea type="text" class="form-control obs" placeholder="Observa&ccedil;&otilde;es:"></textarea>
-							    	</div>
-						    	</div>
-						    	<button type="submit" class="btn btn-primary">ENVIAR</button>
-							</form>
+								<?php echo do_shortcode( '[contact-form-7 id="155" title="Delli Portal - Formulário de Pedidos"]' ); ?>
 							</div>
 						</div>
 					</div>
