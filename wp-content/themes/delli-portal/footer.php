@@ -22,7 +22,7 @@
 				<div class="row no-gutters">
 					<div class="col">
 						<div class="footer-small">
-							<small>by <a href="https://www.thudiumdesign.com" target="_blank">thudium design</a> <?php echo date("Y") ?></small>
+							<small>by <a href="https://www.bebalcony.com" target="_blank">Balcony</a> <?php echo date("Y") ?></small>
 						</div>
 					</div>
 				</div>

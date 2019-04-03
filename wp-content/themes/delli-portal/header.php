@@ -34,7 +34,7 @@
 						<li class="nav-item"><div class="d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse"><a href="#delivery" class="nav-link">Pe&ccedil;a em casa</a></div></li>
 
 						<li class="nav-item"><a href="#cardapio" class="nav-link d-none d-sm-block">Card&aacute;pio</a></li>
-						<li class="nav-item"><div class="d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse"><a href="#cardapio1" class="nav-link">Card&aacute;pio</a></div></li>
+						<li class="nav-item"><div class="d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse"><a href="#cardapio" class="nav-link">Card&aacute;pio</a></div></li>
 
 						<li class="nav-item"><a href="#mapa" class="nav-link d-none d-sm-block">Onde estamos</a></li>
 						<li class="nav-item"><div class="d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse"><a href="#mapa" class="nav-link">Onde estamos</a></div></li>
