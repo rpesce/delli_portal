@@ -1,11 +1,11 @@
-<?php 
+	<?php 
 
 // Include custom navwalker
 // require_once('bs4navwalker.php');
 
 function themebs_enqueue_styles() {
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Oswald:200,300,400');
-	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css' );
 	wp_enqueue_style( 'delli-portal-style', get_template_directory_uri() . '/style.css', NULL, microtime());
 }
 

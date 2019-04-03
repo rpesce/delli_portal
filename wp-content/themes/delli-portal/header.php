@@ -19,7 +19,7 @@
 		<nav id="navigation-bar" class="navbar navbar-expand-md navbar-dark fixed-top bg-yellow">
 			<div class="container">
 			<a class="navbar-brand navbar-brand--position" href="<?php site_url('') ?>">
-				<img class="navbar-brand--margin d-none d-md-inline-block" src='<?php echo get_theme_file_uri('/images/delli_logo.png'); ?>'>
+				<img class="navbar-brand--margin d-none d-md-inline-block" src='<?php echo get_theme_file_uri('/images/delli_logo.png'); ?>' alt="Delli Logo">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
 						<li class="nav-item"><a href="#delivery" class="nav-link d-none d-sm-block">Pe&ccedil;a em casa</a></li>
 						<li class="nav-item"><div class="d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse"><a href="#delivery" class="nav-link">Pe&ccedil;a em casa</a></div></li>
 
-						<li class="nav-item"><a href="#cardapio1" class="nav-link d-none d-sm-block">Card&aacute;pio</a></li>
+						<li class="nav-item"><a href="#cardapio" class="nav-link d-none d-sm-block">Card&aacute;pio</a></li>
 						<li class="nav-item"><div class="d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse"><a href="#cardapio1" class="nav-link">Card&aacute;pio</a></div></li>
 
 						<li class="nav-item"><a href="#mapa" class="nav-link d-none d-sm-block">Onde estamos</a></li>
@@ -42,8 +42,8 @@
 						<li class="nav-item"><a href="#contato" class="nav-link d-none d-sm-block">Contato</a></li>
 						<li class="nav-item"><div class="d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse"><a href="#contato" class="nav-link">Contato</a></div></li>
 
-						<li class="nav-item nav-social-menu d-none d-md-inline-block"><a href="//instagram.com/delliportal" target="_blank"><img src='<?php echo get_theme_file_uri('/images/instagram_icon_dark.png'); ?>'></a></li>
-						<li class="nav-item nav-text--size d-none d-md-inline-block"><img src='<?php echo get_theme_file_uri('/images/whatsapp_icon_dark.png'); ?>'> (21) 2495.6810</li>
+						<li class="nav-item nav-social-menu d-none d-md-inline-block"><a href="//instagram.com/delliportal" target="_blank"><img src='<?php echo get_theme_file_uri('/images/instagram_icon_dark.png'); ?>' alt="Ícone Instagram"></a></li>
+						<li class="nav-item nav-text--size d-none d-md-inline-block"><img src='<?php echo get_theme_file_uri('/images/whatsapp_icon_dark.png'); ?>' alt="Ícone Whatsapp"> (21) 96544.7343</li>
 					</div>
 				</ul>
 			</div>

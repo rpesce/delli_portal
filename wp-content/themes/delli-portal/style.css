@@ -6,4 +6,155 @@ Author URI: https://www.thudiumdesign.com
 Description: Delli Portal é um tema exclusivo, desenvolvido para a Delli Portal.
 Version: 1.0
 */
-html{scroll-behavior:smooth}.container-fluid{padding:0 !important}body{font-family:'Oswald',sans-serif;width:100%;margin-right:0 !important;margin-left:0 !important}.background-dark{color:#fff;background-color:rgba(0,0,0,0.8)}.background-yellow{color:rgba(49,21,10,1);background-color:rgba(205,158,73,0.8)}nav .nav-item{text-align:center;text-transform:uppercase;font-weight:300}.bg-yellow{background-color:rgba(229,158,55,0.95);box-shadow:0 2px 5px #1e1e1e}nav ul{margin:1em 0 0 0}nav li{padding:0.3em 0 0 0}nav li a{color:#0D0C0C !important}nav li a:after{color:#0D0C0C !important}nav li a:hover{color:#fff !important}.nav-text--size{padding:0.5em 0}.nav-social-menu{padding:0.5em 0}.anchor-offset{display:block !important;position:relative !important;top:-3.7em;visibility:hidden}.hero-section{text-align:center;margin:0;background-position:center top;background-repeat:no-repeat;background-size:cover !important}.hero-section img{width:8em;padding-top:7em}.hero-section h2{color:#fff;padding:2em 0 1em 0}.hero-section button{font-size:1.2em;background-color:rgba(13,19,11,0.9);border:0px;border-radius:0;margin-bottom:6em;padding:1em 2em}.hero-section button:hover{background-color:rgba(229,158,55,0.9)}.hero-section button:focus{background-color:rgba(228,174,86,0.9) !important;box-shadow:none !important}.hero-section a{text-decoration:none}.delli-section{text-align:center;background-position:center top;background-repeat:no-repeat;background-color:rgba(0,0,0,0.9);background-size:cover}.delli-section h2{font-size:1.5em;margin:0 !important;padding:1.5em 0 1em 0;background-color:rgba(0,0,0,0.5)}.delli-section img{width:2em}.delli-section p{font-weight:300;line-height:2em;letter-spacing:0.05em;margin:0 !important;padding:0em 1em 3em 1em;text-align:justify}.columns-section img{padding:2.5em 0 0.5em 0;width:4em}.columns-section h5{padding:0.5em}.columns-section p{color:rgba(49,21,10,1);font-weight:200;line-height:2em;margin:0 !important;padding:0em 1em 2em 1em;text-align:center}.delivery-section{text-align:center;color:#fff;background-color:rgba(0,0,0,0.9)}.delivery-section h2{margin:0 !important;padding:1.5em 0 1em 0;background-color:rgba(62,30,15,0.4);font-size:1.5em}.delivery-section img{width:2em}.delivery-section-body{background-position:center top;background-repeat:no-repeat;background-size:cover}.delivery-section-body--yellow{background-color:rgba(242,218,154,0.93)}.delivery-section-body form{text-align:center;padding:4em 1em}.delivery-section-body .form-row{padding:0.35em 0}.delivery-section-body input{font-weight:200 !important;border-radius:0px;border:none;height:3em;box-shadow:3px 3px 2px #DCC48E}.delivery-section-body textarea{font-weight:200 !important;border-radius:0px;border:none;height:8em;box-shadow:3px 3px 2px #DCC48E}.delivery-section-body .obs{font-weight:200 !important;height:8em}#enviar_button{text-transform:uppercase;font-weight:400;border-radius:0;border:none;background-color:rgba(62,30,15,1);margin-top:1em;padding:0.8em 4em 1em 4em;box-shadow:3px 3px 2px #DCC48E}#enviar_button:hover{background-color:rgba(105,51,3,1)}#enviar_button:focus{background-color:rgba(62,30,15,1) !important;box-shadow:none !important}.cardapio-section--white{background-color:rgba(227,227,227,0.3)}.cardapio-section{background-position:center top;background-repeat:no-repeat}.cardapio-section h2{margin:0 !important;text-align:center;padding:1.5em 0 1em 0;font-size:1.5em}.cardapio-section img{width:2em}#cardapio table{display:block;width:100%;padding-bottom:4em;text-align:center}.primeiro{padding:1em 0 0.5em 0 !important}#cardapio table tr th{width:100%;padding:4em 0 0.5em 0;color:rgba(203,156,75,1);}#cardapio table tr td{display:block;padding:0;position:relative}#cardapio table tr td.name{font-size:1.1em;padding:1em 0 0 0;font-weight:400;text-align:center;text-transform:uppercase}#cardapio table tr td.description{font-size:1em !important;font-weight:200;text-align:center}#cardapio table tr td.description em{font-size:0.8em !important}#cardapio table tr td.code{font-size:1em !important;text-align:center;padding-top:0.7em;font-weight:300}#cardapio table tr td.code:before{content:'R$';display:inline}#cardapio table tr td.code.first:before{display:inline;position:relative;bottom:auto}#cardapio table tr td.separator{font-size:1.2em}.galeria-section{background-color:rgba(8,8,8,1)}.galeria-section .container{padding-bottom:6em}.galeria-section h2{color:#fff;text-align:center;padding:1.5em 0 1em 0;font-size:1.5em}.galeria-section img{width:2em}.thumbnail--square{margin:0.4em}.modal{display:none;position:fixed;z-index:1000;padding:auto;left:0;top:0;width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,0.98)}.modal-content{position:absolute;background-color:rgba(0,0,0,0);margin:auto;top:50%;left:50%;transform:translate(-50%,-50%);padding:0 0.4em;width:100%}.close{color:#fff !important;position:absolute;top:0;right:0.3em;font-size:6em;font-weight:200}.close:hover,.close:focus{color:#999;text-decoration:none;cursor:pointer}.mySlides{display:none}.prev,.next{cursor:pointer;position:absolute;top:50%;width:auto;padding:16px;margin-top:-50px;color:#fff;font-weight:bold;font-size:20px;transition:0.6s ease;border-radius:0 3px 3px 0;user-select:none;-webkit-user-select:none}.next{right:0;border-radius:3px 0 0 3px}.prev:hover,.next:hover{background-color:rgba(0, 0, 0, 0.8);color:#fff !important}img.demo{opacity:0.6}.active,.demo:hover{opacity:1}img.hover-shadow{transition:0.3s}.hover-shadow:hover{box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);cursor:pointer}.contato-section{color:#fff;text-align:center;background-position:center top;background-repeat:no-repeat;background-size:cover;background-color:rgba(0,0,0,0.9)}.contato-section--black{background-color:rgba(0,0,0,0.6)}.contato-section h2{margin:0 !important;padding:1.5em 0 1em 0;font-size:1.5em}.contato-section img{width:2em}.contato-section--black img{margin:0 0.5em 0 0}.contato-section p{letter-spacing:0.04em;text-transform:capitalize;padding:0;font-weight:200}.contato-section--margins{padding-bottom:3em}footer{color:#fff;background-color:#1E1E1E;text-align:center;text-transform:capitalize;font-weight:300}.footer-small{padding:2em 0;background-color:#131313}footer .footer-small a{color:#fff}footer .footer-small a:visited{color:#fff}.footer-logo img{width:10em;margin:2em auto 4em auto}footer ul{padding:2em 0 0 0;text-align:center;color:#fff;list-style-type:none}footer ul a{color:#fff}footer ul a:hover{color:#fff}footer ul a:visited{color:#fff}footer ul li{padding:0.5em 0}@media (min-width: 576px){.columns-section p{padding:0em 2em 2em 2em}}@media (min-width: 768px){nav .navbar-brand img{width:4.5em}nav .navbar-brand--position{margin:1.1em 0 0 0;position:absolute}nav ul{margin:auto}nav li{font-size:0.8em;padding:0.1em 0em;display:inline-block}.nav-text--size{color:#0D0C0C;padding:0 0.5em;font-size:0.8em}.nav-item img{width:1.6em}.nav-social-menu{padding:0 0 0 1em;margin-left:0}.hero-section h2{padding:10em 0 3em 0}.hero-section button{margin-bottom:7em}.columns-section p{padding:0em 0.7em 3em 0.7em}#cardapio table{display:table !important}.modal-content{top:40%;left:50%;transform:translate(-50%,-50%);width:60%;height:60%}footer ul li{display:inline-block;padding:0 1em}}@media (min-width: 992px){nav li{font-size:1em;padding:0.1em 0em;display:inline-block}.nav-text--size{color:#0D0C0C;padding:0 0.5em;font-size:1em}nav .navbar-brand img{width:5em}nav .navbar-brand--position{margin:1.3em 0 0 2em}.hero-section h2{padding:10em 0 2em 0}.delli-section p{padding:0em 2em 3em 2em}.columns-section img{padding:3em 0 0.5em 0}.columns-section p{padding:0em 0.5em 4em 0.5em}}@media (min-width: 1200px){}
+html{scroll-behavior:smooth}.container-fluid{padding:0 !important;}
+body{font-family:'Oswald',sans-serif;width:100%;margin-right:0 !important;margin-left:0 !important}
+.background-dark{color:#fff;background-color:rgba(0,0,0,0.8)}
+.background-yellow{color:rgba(49,21,10,1);background-color:rgba(205,158,73,0.8)}
+nav .nav-item{text-align:center;text-transform:uppercase;font-weight:300}
+.bg-yellow{background-color:rgba(229,158,55,0.95);box-shadow:0 2px 5px #1e1e1e}
+nav ul{margin:1em 0 0 0}
+nav li{padding:0.3em 0 0 0}
+nav li a{color:#0D0C0C !important}
+nav li a:after{color:#0D0C0C !important}
+nav li a:hover{color:#fff !important}
+.nav-text--size{padding:0.5em 0}
+.nav-social-menu{padding:0.5em 0}
+.anchor-offset{display:block !important;position:relative !important;top:-3.7em;visibility:hidden}
+
+.carousel { z-index: -99; }
+.hero-section .hero-section-2{position: absolute; text-align: center; top:20em;}
+.frase-capa img{width: 30em !important;}
+.hero-section button{font-size:1.2em;background-color:rgba(13,19,11,0.9);border:0px;border-radius:0;margin-bottom:6em;padding:1em 2em; margin-top: 2em;}
+.hero-section button:hover{background-color:rgba(229,158,55,0.9)}
+.hero-section button:focus{background-color:rgba(228,174,86,0.9) !important;box-shadow:none !important}
+.hero-section a{text-decoration:none}
+
+/*.hero-section{text-align:center;margin:0;background-repeat:no-repeat;background-size:cover !important}
+/*.hero-section img{width:8em;padding-top:7em}*/
+/*..hero-section h2{color:#fff;padding:2em 0 1em 0}*/
+
+
+.delli-section{text-align:center;background-position:center top;background-repeat:no-repeat;background-color:rgba(0,0,0,0.9);background-size:cover}
+.delli-section h2{font-size:1.5em;margin:0 !important;padding:1.5em 0 1em 0;background-color:rgba(0,0,0,0.5)}
+.delli-section img{width:2em}
+.delli-section p{font-weight:300;line-height:2em;letter-spacing:0.05em;margin:0 !important;padding:0em 1em 3em 1em;text-align:justify}
+.delli-section .content-text p{text-align:center !important; padding-bottom:0.3em !important; word-spacing: 0.1em; letter-spacing:0.07em}
+.delli-section .content-text-topnbottom {padding: 2em 0 !important;}
+.columns-section a{color:rgba(49,21,10,1)}
+.columns-section a:hover{color:#ffffff !important}
+.columns-section a:visited{color:rgba(49,21,10,1)}
+.columns-section img{padding:2.5em 0 0.5em 0;width:4em}
+.columns-section h5{padding:0.5em}
+.columns-section p{color:rgba(49,21,10,1);font-weight:200;line-height:2em;margin:0 !important;padding:0em 1em 2em 1em;text-align:center}
+.delivery-section{text-align:center;color:#fff;background-color:rgba(0,0,0,0.9)}
+.delivery-section h2{margin:0 !important;padding:1.5em 0 1em 0;background-color:rgba(62,30,15,0.4);font-size:1.5em}
+.delivery-section img{width:2em}
+.delivery-section-body{background-position:center top;background-repeat:no-repeat;background-size:cover}
+.delivery-section-body--yellow{background-color:rgba(242,218,154,0.93)}
+.delivery-section-body form{text-align:center;padding:4em 1em}
+.delivery-section-body .form-row{padding:0.35em 0}
+.delivery-section-body input{font-weight:200 !important;border-radius:0px;border:none;height:3em;box-shadow:3px 3px 2px #DCC48E}
+.delivery-section-body textarea{font-weight:200 !important;border-radius:0px;border:none;height:8em;box-shadow:3px 3px 2px #DCC48E}
+.delivery-section-body .obs{font-weight:200 !important;height:8em}
+#enviar_button{text-transform:uppercase;font-weight:400;border-radius:0;border:none;background-color:rgba(62,30,15,1);margin-top:1em;padding:0.8em 4em 1em 4em;box-shadow:3px 3px 2px #DCC48E}
+#enviar_button:hover{background-color:rgba(105,51,3,1)}
+#enviar_button:focus{background-color:rgba(62,30,15,1) !important;box-shadow:none !important}
+.cardapio-section--white{background-color:rgba(205,158,73,0)}
+.cardapio-section{background-position:center top;background-repeat:repeat}
+.cardapio-section h2{margin:0 !important;text-align:center;padding:1.5em 0 1em 0;font-size:1.5em}
+.cardapio-section img{width:2em}
+.galeria-section{background-color:rgba(8,8,8,1)}
+.galeria-section .container{padding-bottom:6em}
+.galeria-section h2{color:#fff;text-align:center;padding:1.5em 0 1em 0;font-size:1.5em}
+.galeria-section img{width:2em}
+.thumbnail--square{margin:0.4em}
+.modal{display:none;position:fixed;z-index:1000;padding:auto;left:0;top:0;width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,0.98)}
+.modal-content{position:absolute;background-color:rgba(0,0,0,0);margin:auto;top:50%;left:50%;transform:translate(-50%,-50%);padding:0 0.4em;width:100%}
+.close{color:#fff !important;position:absolute;top:0;right:0.3em;font-size:6em;font-weight:200}
+.close:hover,.close:focus{color:#999;text-decoration:none;cursor:pointer}
+.mySlides{display:none}
+.prev,.next{cursor:pointer;position:absolute;top:50%;width:auto;padding:16px;margin-top:-50px;color:#fff;font-weight:bold;font-size:20px;transition:0.6s ease;border-radius:0 3px 3px 0;user-select:none;-webkit-user-select:none}
+.next{right:0;border-radius:3px 0 0 3px}
+.prev:hover,.next:hover{background-color:rgba(0, 0, 0, 0.8);color:#fff !important}
+img.demo{opacity:0.6}.active,.demo:hover{opacity:1}
+img.hover-shadow{transition:0.3s}
+.hover-shadow:hover{box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);cursor:pointer}
+.contato-section{color:#fff;text-align:center;background-position:center top;background-repeat:no-repeat;background-size:cover;background-color:rgba(0,0,0,0.9)}
+.contato-section--black{background-color:rgba(0,0,0,0.6)}
+.contato-section h2{margin:0 !important;padding:1.5em 0 1em 0;font-size:1.5em}
+.contato-section img{width:2em}
+.contato-section--black img{margin:0 0.5em 0 0}
+.contato-section p{letter-spacing:0.04em;padding:0;font-weight:200}
+.contato-section p a{color:#fff;}
+.contato-section p a:hover{color:#fff;}
+.contato-section p a:visited{color:#fff;}
+.contato-section--margins{padding-bottom:3em}
+footer{color:#fff;background-color:#1E1E1E;text-align:center;text-transform:capitalize;font-weight:300}
+.footer-small{padding:2em 0;background-color:#131313}
+footer .footer-small a{color:#fff}
+footer .footer-small a:visited{color:#fff}
+.footer-logo img{width:10em;margin:2em auto 4em auto}
+footer ul{padding:2em 0 0 0;text-align:center;color:#fff;list-style-type:none}
+footer ul a{color:#fff}
+footer ul a:hover{color:#fff}
+footer ul a:visited{color:#fff}
+footer ul li{padding:0.5em 0}
+@media (min-width: 576px){
+	.columns-section p{padding:0em 2em 2em 2em}
+}
+@media (min-width: 768px){
+	nav .navbar-brand img{width:4.5em}
+	nav .navbar-brand--position{margin:1.1em 0 0 0;position:absolute}
+	nav ul{margin:auto}
+	nav li{font-size:0.8em;padding:0.1em 0em;display:inline-block}
+	.nav-text--size{color:#0D0C0C;padding:0 0.5em;font-size:0.8em}
+	.nav-item img{width:1.6em}
+	.nav-social-menu{padding:0 0 0 1em;margin-left:0}
+	/*.hero-section h2{padding:10em 0 3em 0}*/
+	/*.hero-section button{margin-bottom:7em}*/
+	.columns-section p{padding:0em 0.7em 3em 0.7em}
+	.modal-content{top:40%;left:50%;transform:translate(-50%,-50%);width:60%;height:60%}
+	.prev,.next{top:70%;}
+	footer ul li{display:inline-block;padding:0 1em}
+}
+@media (min-width: 992px){
+	nav li{font-size:1em;padding:0.1em 0em;display:inline-block}
+	.nav-text--size{color:#0D0C0C;padding:0 0.5em;font-size:1em}
+	nav .navbar-brand img{width:5em}
+	nav .navbar-brand--position{margin:1.3em 0 0 2em}
+	/*.hero-section h2{padding:10em 0 2em 0}*/
+	.delli-section p{padding:0em 2em 3em 2em}
+	.columns-section img{padding:3em 0 0.5em 0}
+	.columns-section p{padding:0em 0.5em 4em 0.5em}
+}
+@media (min-width: 1200px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

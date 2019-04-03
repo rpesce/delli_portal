@@ -14,7 +14,7 @@
 				<div class="row no-gutters">
 					<div class="col">
 						<div class="footer-logo">
-							<img src='<?php echo get_theme_file_uri('/images/logo_white.png'); ?>'>
+							<img src='<?php echo get_theme_file_uri('/images/logo_white.png'); ?>' alt="Delli Logo">
 						</div>
 					</div>
 				</div>

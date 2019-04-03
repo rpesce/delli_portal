@@ -1,6 +1,36 @@
 			<?php get_header(); ?>
-			<div><a class="anchor-offset" name="home"></a></div>
-			<div class="row no-gutters">
+
+					<div class="hero-section">
+						<div class="carousel slide carousel-fade" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="d-flex align-items-center justify-content-center min-vh-100">
+										<img src="<?php echo get_theme_file_uri('/images/background.jpg'); ?>" class="d-block w-100 min-vh-100" alt="Background image">
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="d-flex align-items-center justify-content-center min-vh-100">
+										<img src="<?php echo get_theme_file_uri('/images/background2.jpg'); ?>" class="d-block w-100" alt="Background image">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="d-flex justify-content-center">
+								<div class="hero-section-2 ">
+									<div class="col">
+										<!-- <img class="d-inline-block d-md-none" src='<?php echo get_theme_file_uri('/images/delli_logo.png'); ?>'> -->
+										<div class="frase-capa">
+											<img src="<?php echo get_theme_file_uri('/images/frase_capa.png'); ?>" class="d-block justify-content-center" alt="Background image">
+											<a href="#delivery"><button type="button" class="btn btn-primary">PE&Ccedil;A EM CASA!</button></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+<!--			<div class="row no-gutters">
 				<div class="col">
 					<?php
 						$randomDecisor = mt_rand(1,2);
@@ -18,7 +48,8 @@
 					</div>
 				</div>
 			</div>
-
+-->
+			<div><a class="anchor-offset" name="home"></a></div>
 			<div class="delli-section" style="background-image: url(<?php echo get_theme_file_uri('/images/background3.jpg') ?>)">
 				<div class="row no-gutters">
 					<div class="col">
@@ -26,8 +57,10 @@
 							<?php 
 							if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 								<h2><img src="<?php echo get_theme_file_uri('/images/icone_trigo_esq.png'); ?>"><?php the_title(); ?><img src="<?php echo get_theme_file_uri('/images/icone_trigo_dir.png'); ?>"></h2>
-							    <div class="container">
-							    <p><?php the_content(); ?></p>
+							    <div class="container content-text">
+							    	<div class="content-text-topnbottom">
+							    		<p><?php the_content(); ?></p>
+							    	</div>
 							    </div>
 							  	<?php endwhile; endif;
 							?>
@@ -35,39 +68,49 @@
 					</div>
 				</div>
 			
+				<a class="anchor-offset" name="cardapio"></a>
 				<div class="background-yellow">
-					<div class="container">
 					<div class="row no-gutters">
-						<div class="col-sm-12 col-md-3">
-					    	<div class="columns-section">
-								<img src='<?php echo get_theme_file_uri('/images/icone_pao.png'); ?>'>
-									<h5>P&Atilde;ES</h5>
-									<p>Pão nosso de cada dia! Doce, salgado, com grãos, caseiro ou recheado. Ninguém resiste em experimentar uma fatia de pão quentinho seja no café da manhã, no lanche da tarde ou como acompanhamento de um prato principal.</p>
-					    	</div>
-					  	</div>
-					  	<div class="col-sm-12 col-md-3">
-					    	<div class="columns-section">
-								<img src='<?php echo get_theme_file_uri('/images/icone_burguer.png'); ?>'>
-					      		<h5>LANCHES</h5>
-					      		<p>Saia da rotina! No pão francês, na baguete simples ou outro especial combinado com nossos queijos, frios, verduras e outros recheios deliciosos! Frescos, quentes e crocantes com diferentes molhos, pastas e texturas para comer rezando.</p>
-					    	</div>
-					  	</div>
-						<div class="col-sm-12 col-md-3">
-					    	<div class="columns-section">
-								<img src='<?php echo get_theme_file_uri('/images/icone_doce.png'); ?>'>
-					      		<h5>DOCES</h5>
-					      		<p>Delícia mesmo é comer nosso sabor de bolo favorito em boa companhia! Aipim, prestígio, brigadeiro, cenoura com calda de chocolate...hummm Vem conferi uma infinita variedade de doces, tortas, bolos e biscoitos para deixar sua vida ainda mais doce.</p>
-						    </div>
-					    </div>
-					    <div class="col-sm-12 col-md-3">
-					    	<div class="columns-section">
-								<img src='<?php echo get_theme_file_uri('/images/icone_bolo.png'); ?>'>				        	
-					        	<h5>EVENTOS</h5>
-					        	<p>Compartilhamos sabor! Surpreenda com uma noite de pizza, um almoço entre amigos, um café da manhã em família. Nós preparamos tudo com muito carinho e levamos até você.</p>
+						<div class="col">
+							<div class="cardapio-section">
+								<div class="cardapio-section--white">
+									<h2 style="color: #fff;"><img src='<?php echo get_theme_file_uri('/images/icone_trigo_esq.png'); ?>' alt="Ícone Trigo">CARD&Aacute;PIO<img src='<?php echo get_theme_file_uri('/images/icone_trigo_dir.png'); ?>' alt="Ícone Trigo"></h2>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+					<div class="container">
+						<div class="row no-gutters">
+							<div class="col-sm-12 col-md-3">
+						    	<div class="columns-section">
+									<a href="<?php echo get_theme_file_uri('/images/cardapio.pdf'); ?>" target="_blank" ><img src='<?php echo get_theme_file_uri('/images/icone_pao.png'); ?>' alt="Ícone Pão"></a>
+										<h5><a href="<?php echo get_theme_file_uri('/images/cardapio.pdf'); ?>" target="_blank">P&Atilde;ES</a></h5>
+										<p>Pão nosso de cada dia! Doce, salgado, com grãos, caseiro ou recheado. Ninguém resiste em experimentar uma fatia de pão quentinho seja no café da manhã, no lanche da tarde ou como acompanhamento de um prato principal.</p>
+						    	</div>
+						  	</div>
+						  	<div class="col-sm-12 col-md-3">
+						    	<div class="columns-section">
+									<a href="<?php echo get_theme_file_uri('/images/cardapio.pdf'); ?>" target="_blank" ><img src='<?php echo get_theme_file_uri('/images/icone_burguer.png'); ?>' alt="Ícone Lanches"></a>
+						      		<h5><a href="<?php echo get_theme_file_uri('/images/cardapio.pdf'); ?>" target="_blank" >LANCHES</a></h5>
+						      		<p>Saia da rotina! No pão francês, na baguete simples ou outro especial combinado com nossos queijos, frios, verduras e outros recheios deliciosos! Frescos, quentes e crocantes com diferentes molhos, pastas e texturas para comer rezando.</p>
+						    	</div>
+						  	</div>
+							<div class="col-sm-12 col-md-3">
+						    	<div class="columns-section">
+									<a href="<?php echo get_theme_file_uri('/images/cardapio.pdf'); ?>" target="_blank" ><img src='<?php echo get_theme_file_uri('/images/icone_doce.png'); ?>' alt="Ícone Doces"></a>
+						      		<h5><a href="<?php echo get_theme_file_uri('/images/cardapio.pdf'); ?>" target="_blank" >DOCES</a></h5>
+						      		<p>Delícia mesmo é comer nosso sabor de bolo favorito em boa companhia! Aipim, prestígio, brigadeiro, cenoura com calda de chocolate...hummm Vem conferi uma infinita variedade de doces, tortas, bolos e biscoitos para deixar sua vida ainda mais doce.</p>
+							    </div>
+						    </div>
+						    <div class="col-sm-12 col-md-3">
+						    	<div class="columns-section">
+									<a href="<?php echo get_theme_file_uri('/images/cardapio.pdf'); ?>" target="_blank" ><img src='<?php echo get_theme_file_uri('/images/icone_bolo.png'); ?>' alt="Ícone Eventos"></a>
+						        	<h5><a href="<?php echo get_theme_file_uri('/images/cardapio.pdf'); ?>" target="_blank" >EVENTOS</a></h5>
+						        	<p>Compartilhamos sabor! Surpreenda com uma noite de pizza, um almoço entre amigos, um café da manhã em família. Nós preparamos tudo com muito carinho e levamos até você.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -75,7 +118,7 @@
 			<div class="row no-gutters">
 				<div class="col">
 					<div class="delivery-section">
-						<h2><img src='<?php echo get_theme_file_uri('/images/icone_trigo_esq.png'); ?>'>PE&Ccedil;A EM CASA<img src='<?php echo get_theme_file_uri('/images/icone_trigo_dir.png'); ?>'></h2>
+						<h2><img src='<?php echo get_theme_file_uri('/images/icone_trigo_esq.png'); ?>' alt="Ícone Trigo">PE&Ccedil;A EM CASA<img src='<?php echo get_theme_file_uri('/images/icone_trigo_dir.png'); ?>' alt="Ícone Trigo"></h2>
 					</div>
 					<div class="delivery-section-body" style="background-image: url(<?php echo get_theme_file_uri('/images/delivery_background.jpg') ?>)">
 						<div class="delivery-section-body--yellow">
@@ -87,381 +130,73 @@
 				</div>
 			</div>
 
-			<a class="anchor-offset" name="cardapio1"></a>
-			<section id="cardapio">
-				<div class="row no-gutters">
-					<div class="col">
-						<div class="cardapio-section" style="background-image: url(<?php echo get_theme_file_uri('/images/cardapio_background.png') ?>)">
-							<div class="cardapio-section--white">
-								<h2><img src='<?php echo get_theme_file_uri('/images/icone_trigo_esq.png'); ?>'>CARD&Aacute;PIO<img src='<?php echo get_theme_file_uri('/images/icone_trigo_dir.png'); ?>'></h2>
-								<div class="container">
-									<table>
-										<tr>
-											<th class="primeiro" colspan="4"> COMBOS PROMOCIONAIS </th>
-										</tr>
-										<tr>
-											<td class="name"> COMBO 1 </td>
-											<td class="description"> P&atilde;o na chapa + M&eacute;dia <br /><em>*P&atilde;es: franc&ecirc;s, baguete simples ou baguete com queijo</em> </td>
-											<td class="code"> 6,50 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> COMBO 2 </td>
-											<td class="description"> Salgado + Guaravita <br /><em>*Salgados: coxinha, joelho, empada, quibe ou hamb&uacute;rguer</em> </td>
-											<td class="code"> 6,99 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> COMBO 3 </td>
-											<td class="description"> P&atilde;o na chapa + 6 p&atilde;es de queijo +  Suco de laranja 300ml <br /><em>*P&atilde;es: franc&ecirc;s ou baguete simples</em> </td>
-											<td class="code"> 10,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> COMBO 4 </td>
-											<td class="description"> Queijo Quente + Suco de Laranja 300ml <br /><em>*P&atilde;es: franc&ecirc;s ou baguete simples</em> </td>
-											<td class="code"> 12,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> COMBO 5 </td>
-											<td class="description"> P&atilde;o Integral com queijo minas +  Suco de Laranja 300ml <br /><em>*Queijos: mu&ccedil;arela ou prato</em> </td>
-											<td class="code"> 14,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> COMBO 6 </td>
-											<td class="description"> Misto quente + Expresso +  Suco de Laranja 300ml <br /><em>*Queijos: muç&ccedil;arela ou prato e presunto</em> </td>
-											<td class="code"> 16,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-
-										<tr>
-											<th colspan="4"> SANDU&Iacute;CHES TRADICIONAIS </th>
-										</tr>
-										<tr>
-											<td class="name"> Pão francês ou baguete simples com manteiga </td>
-											<td class="description">  </td>
-											<td class="code"> 3,00 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Baguete de queijo com manteiga </td>
-											<td class="description">  </td>
-											<td class="code"> 4,50 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Pão especial com manteiga </td>
-											<td class="description">  </td>
-											<td class="code"> 5,00 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Baguete ou francês com polenguinho </td>
-											<td class="description">  </td>
-											<td class="code"> 5,00 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Baguete de queijo com polenguinho </td>
-											<td class="description">  </td>
-											<td class="code"> 6,50 </td>
-											<td class="separator"> - </td>
-										</tr>
-
-										<tr>
-											<th colspan="4"> SANDU&Iacute;CHES ESPECIAIS </th>
-										</tr>
-										<tr>
-											<td class="name"> Ovo Frito </td>
-											<td class="description">  </td>
-											<td class="code"> 5,00 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Pasta </td>
-											<td class="description">  </td>
-											<td class="code"> 7,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Mortadela Ouro </td>
-											<td class="description">  </td>
-											<td class="code"> 8,90 </td>
-											<td class="separator"> - </td>
-										</tr>										
-										<tr>
-											<td class="name"> Peito de Peru </td>
-											<td class="description">  </td>
-											<td class="code"> 12,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Presunto </td>
-											<td class="description">  </td>
-											<td class="code"> 8,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Mortadela ceratti </td>
-											<td class="description">  </td>
-											<td class="code"> 10,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Misto Simples </td>
-											<td class="description"> Queijos: muçarela, minas ou prato | Frios: presunto ou mortadela </td>
-											<td class="code"> 10,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Misto Especial </td>
-											<td class="description"> Queijos: bola ou cheddar | Frios: presunto ou mortadela </td>
-											<td class="code"> 11,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Queijo e Peito de peru </td>
-											<td class="description"> Queijos: muçarela, minas ou prat </td>
-											<td class="code"> 12,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Mortadela ceratti com queijo </td>
-											<td class="description"> Queijos: muçarela, minas ou prato </td>
-											<td class="code"> 12,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Queijo Quente </td>
-											<td class="description"> Queijos: muçarela, minas ou prato </td>
-											<td class="code"> 8,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Queijo quente especial </td>
-											<td class="description"> Queijos: bola, brie ou cheddar </td>
-											<td class="code"> 14,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<th colspan="4"> SANDU&Iacute;CHES PREMIUM </th>
-										</tr>
-										<tr>
-											<td class="name"> Pastrami ou presunto Royale </td>
-											<td class="description">  </td>
-											<td class="code"> 13,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Rosbife </td>
-											<td class="description">  </td>
-											<td class="code"> 13,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Lombo Canadense </td>
-											<td class="description">  </td>
-											<td class="code"> 13,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Salame hambuegues ou italiano </td>
-											<td class="description">  </td>
-											<td class="code"> 14,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Presunto alemão </td>
-											<td class="description">  </td>
-											<td class="code"> 16,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Copa </td>
-											<td class="description">  </td>
-											<td class="code"> 15,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Salpição de frango </td>
-											<td class="description">  </td>
-											<td class="code"> 15,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Pernil </td>
-											<td class="description">  </td>
-											<td class="code"> 15,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Presunto de parma </td>
-											<td class="description">  </td>
-											<td class="code"> 20,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Rosbife </td>
-											<td class="description">  </td>
-											<td class="code"> 13,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Rosbife com queijo especial </td>
-											<td class="description"> Queijos: muçarela, minas ou prato </td>
-											<td class="code"> 14,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Rosbife com queijo </td>
-											<td class="description"> Queijos: muçarela, minas ou prato </td>
-											<td class="code"> 16,90 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<th colspan="4"> ADICIONAIS </th>
-										</tr>
-										<tr>
-											<td class="name"> Ovo Frito </td>
-											<td class="description">  </td>
-											<td class="code"> 1,00 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Polenguinho </td>
-											<td class="description">  </td>
-											<td class="code"> 1,50 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> Recheios </td>
-											<td class="description"> Queijos: muçarela, minas ou prato | Frios: presunto, peito de peru ou mortadela </td>
-											<td class="code"> 5,00 </td>
-											<td class="separator"> - </td>
-										</tr>
-										<tr>
-											<td class="name"> P&atilde;es especiais </td>
-											<td class="description"> Baguete de queijo, integral, multigraõs, Italiano, Australiano Ciabatta ou Focaccia </td>
-											<td class="code"> 1,00 </td>
-											<td class="separator"> - </td>
-										</tr>
-
-									</table>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section> 
 
 			<a class="anchor-offset" name="galeria"></a>
 			<div class="row no-gutters">
 				<div class="col">
 					<div class="galeria-section">
-						<h2><img src='<?php echo get_theme_file_uri('/images/icone_trigo_esq.png'); ?>'>GALERIA<img src='<?php echo get_theme_file_uri('/images/icone_trigo_dir.png'); ?>'></h2>
+						<h2><img src='<?php echo get_theme_file_uri('/images/icone_trigo_esq.png'); ?>' alt="Ícone Trigo">COMPARTILHAMOS SABOR E ABRA&Ccedil;OS<img src='<?php echo get_theme_file_uri('/images/icone_trigo_dir.png'); ?>' alt="Ícone Trigo"></h2>
 						
 						<div class="container">
 							<div class="row no-gutters">
-								<div class="col-12 col-md-3">
+								<div class="col-12 col-md-4">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(1)" src='<?php echo get_theme_file_uri('/images/1.jpg'); ?>' alt="Fotos" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(1)" src='<?php echo get_theme_file_uri('/images/galeria_1.png'); ?>' alt="Foto galeria 1" style="width:100%">
 									</div>
 								</div>
-								<div class="col-12 col-md-3">
+								<div class="col-12 col-md-4">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(2)" src='<?php echo get_theme_file_uri('/images/2.jpg'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(2)" src='<?php echo get_theme_file_uri('/images/galeria_2.png'); ?>' alt="Foto galeria 2" style="width:100%">
 									</div>
 								</div>
-								<div class="col-12 col-md-3">
+								<div class="col-12 col-md-4">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(3)" src='<?php echo get_theme_file_uri('/images/3.jpg'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(3)" src='<?php echo get_theme_file_uri('/images/galeria_3.png'); ?>' alt="Foto galeria 3" style="width:100%">
 									</div>
 								</div>
-								<div class="col-12 col-md-3">
+								<div class="col-12 col-md-4">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(4)" src='<?php echo get_theme_file_uri('/images/4.jpg'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(4)" src='<?php echo get_theme_file_uri('/images/galeria_4.png'); ?>' alt="Foto galeria 4" style="width:100%">
 									</div>
 								</div>
-								<div class="col-12 col-md-3">
+								<div class="col-12 col-md-4">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(5)" src='<?php echo get_theme_file_uri('/images/5.jpg'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(5)" src='<?php echo get_theme_file_uri('/images/galeria_5.png'); ?>' alt="Foto galeria 5" style="width:100%">
 									</div>
 								</div>
-								<div class="col-12 col-md-3">
+								<div class="col-12 col-md-4">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(6)" src='<?php echo get_theme_file_uri('/images/6.jpg'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(6)" src='<?php echo get_theme_file_uri('/images/galeria_6.png'); ?>' alt="Foto galeria 6" style="width:100%">
 									</div>
 								</div>
-								<div class="col-12 col-md-3">
+								<div class="col-12 col-md-4">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(7)" src='<?php echo get_theme_file_uri('/images/7.jpg'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(7)" src='<?php echo get_theme_file_uri('/images/galeria_7.png'); ?>' alt="Foto galeria 7" style="width:100%">
 									</div>
 								</div>
-								<div class="col-12 col-md-3">
+								<div class="col-12 col-md-4">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(8)" src='<?php echo get_theme_file_uri('/images/8.jpg'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(8)" src='<?php echo get_theme_file_uri('/images/galeria_8.png'); ?>' alt="Foto galeria 8" style="width:100%">
 									</div>
 								</div>
-								<div class="col-12 col-md-3">
+								<div class="col-12 col-md-4">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(9)" src='<?php echo get_theme_file_uri('/images/9.jpg'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(9)" src='<?php echo get_theme_file_uri('/images/galeria_9.png'); ?>' alt="Foto galeria 9" style="width:100%">
 									</div>
 								</div>
-								<div class="col-12 col-md-3">
+								<div class="col-12 col-md-4">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(10)" src='<?php echo get_theme_file_uri('/images/10.jpg'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(10)" src='<?php echo get_theme_file_uri('/images/galeria_10.png'); ?>' alt="Foto galeria 10" style="width:100%">
 									</div>
 								</div>
-								<div class="col-12 col-md-3">
+								<div class="col-12 col-md-4">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(11)" src='<?php echo get_theme_file_uri('/images/11.jpg'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(11)" src='<?php echo get_theme_file_uri('/images/galeria_11.png'); ?>' alt="Foto galeria 11" style="width:100%">
 									</div>
 								</div>
-								<div class="col-12 col-md-3">
+								<div class="col-12 col-md-4">
 									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(12)" src='<?php echo get_theme_file_uri('/images/12.jpg'); ?>' alt="Lights" style="width:100%">
-									</div>
-								</div>
-								<div class="col-12 col-md-3">
-									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(13)" src='<?php echo get_theme_file_uri('/images/13.jpg'); ?>' alt="Lights" style="width:100%">
-									</div>
-								</div>
-								<div class="col-12 col-md-3">
-									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(14)" src='<?php echo get_theme_file_uri('/images/14.jpg'); ?>' alt="Lights" style="width:100%">
-									</div>
-								</div>
-								<div class="col-12 col-md-3">
-									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(15)" src='<?php echo get_theme_file_uri('/images/15.jpg'); ?>' alt="Lights" style="width:100%">
-									</div>
-								</div>
-								<div class="col-12 col-md-3">
-									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(16)" src='<?php echo get_theme_file_uri('/images/16.jpg'); ?>' alt="Lights" style="width:100%">
-									</div>
-								</div>
-								<div class="col-12 col-md-3">
-									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(17)" src='<?php echo get_theme_file_uri('/images/17.jpg'); ?>' alt="Lights" style="width:100%">
-									</div>
-								</div>
-								<div class="col-12 col-md-3">
-									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(18)" src='<?php echo get_theme_file_uri('/images/18.jpg'); ?>' alt="Lights" style="width:100%">
-									</div>
-								</div>
-								<div class="col-12 col-md-3">
-									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(19)" src='<?php echo get_theme_file_uri('/images/19.jpg'); ?>' alt="Lights" style="width:100%">
-									</div>
-								</div>
-								<div class="col-12 col-md-3">
-									<div class="thumbnail thumbnail--square">
-										<img class="hover-shadow" onclick="openModal();currentSlide(20)" src='<?php echo get_theme_file_uri('/images/20.jpg'); ?>' alt="Lights" style="width:100%">
+										<img class="hover-shadow" onclick="openModal();currentSlide(12)" src='<?php echo get_theme_file_uri('/images/galeria_12.png'); ?>' alt="Foto galeria 12" style="width:100%">
 									</div>
 								</div>
 							</div>
@@ -476,64 +211,40 @@
 					<span class="close cursor" onclick="closeModal()">&times;</span>
 					<div class="modal-content">
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/1.jpg'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/galeria_1.png'); ?>" style="width:100%" alt="Thumbnail galeria 1">
 						</div>
 					    <div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/2.jpg'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/galeria_2.png'); ?>" style="width:100%" alt="Thumbnail galeria 2">
 						</div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/3.jpg'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/galeria_3.png'); ?>" style="width:100%" alt="Thumbnail galeria 3">
 						</div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/4.jpg'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/galeria_4.png'); ?>" style="width:100%" alt="Thumbnail galeria 4">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/5.jpg'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/galeria_5.png'); ?>" style="width:100%" alt="Thumbnail galeria 5">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/6.jpg'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/galeria_6.png'); ?>" style="width:100%" alt="Thumbnail galeria 6">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/7.jpg'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/galeria_7.png'); ?>" style="width:100%" alt="Thumbnail galeria 7">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/8.jpg'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/galeria_8.png'); ?>" style="width:100%" alt="Thumbnail galeria 8">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/9.jpg'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/galeria_9.png'); ?>" style="width:100%" alt="Thumbnail galeria 9">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/10.jpg'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/galeria_10.png'); ?>" style="width:100%" alt="Thumbnail galeria 10">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/11.jpg'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/galeria_11.png'); ?>" style="width:100%" alt="Thumbnail galeria 11">
 					    </div>
 						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/12.jpg'); ?>" style="width:100%">
-					    </div>
-						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/13.jpg'); ?>" style="width:100%">
-					    </div>
-						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/14.jpg'); ?>" style="width:100%">
-					    </div>
-						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/15.jpg'); ?>" style="width:100%">
-					    </div>
-						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/16.jpg'); ?>" style="width:100%">
-					    </div>
-						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/17.jpg'); ?>" style="width:100%">
-					    </div>
-						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/18.jpg'); ?>" style="width:100%">
-					    </div>
-						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/19.jpg'); ?>" style="width:100%">
-					    </div> 
-						<div class="mySlides">
-							<img src="<?php echo get_theme_file_uri('/images/20.jpg'); ?>" style="width:100%">
+							<img src="<?php echo get_theme_file_uri('/images/galeria_12.png'); ?>" style="width:100%" alt="Thumbnail galeria 12">
 					    </div>
 
 					    <!-- Next/previous controls -->
@@ -548,13 +259,13 @@
 				<div class="col-sm-12">
 					<div class="contato-section" style="background-image: url(<?php echo get_theme_file_uri('/images/background4.jpg') ?>)">
 						<div class="contato-section--black">
-							<h2><img src='<?php echo get_theme_file_uri('/images/icone_trigo_esq.png'); ?>'>CONTATO<img src='<?php echo get_theme_file_uri('/images/icone_trigo_dir.png'); ?>'></h2>
+							<h2><img src='<?php echo get_theme_file_uri('/images/icone_trigo_esq.png'); ?>' alt="Ícone Trigo">CONTATO<img src='<?php echo get_theme_file_uri('/images/icone_trigo_dir.png'); ?>' alt="Ícone Trigo"></h2>
 							<div class="contato-section--margins">
-								<p><img src='<?php echo get_theme_file_uri('/images/icone_mapa.png'); ?>'>AV Rodolfo Amoedo 455 Barra da Tijuca, Rio de Janeiro</p>
-								<p><img src='<?php echo get_theme_file_uri('/images/icone_whatsapp.png'); ?>'>(21) 2495.6810</p>
-								<p><img src='<?php echo get_theme_file_uri('/images/icone_email.png'); ?>'>e-mail: delliportal@delliportal.com.br</p>
-								<p><img src='<?php echo get_theme_file_uri('/images/icone_instagram.png'); ?>'>instagram.com/delliportal</p>
-								<p><img src='<?php echo get_theme_file_uri('/images/icone_facebook.png'); ?>'>facebook.com/delliportal</p>
+								<p><img src='<?php echo get_theme_file_uri('/images/icone_mapa.png'); ?>' alt="Ícone Mapa">AV Rodolfo Amoedo 455 Barra da Tijuca, Rio de Janeiro</p>
+								<p><img src='<?php echo get_theme_file_uri('/images/icone_whatsapp.png'); ?>' alt="Ícone Whatsapp">(21) 96544.73.43</p>
+								<p><a href="mailto:delliportal@delliportal.com.br?subject=Contato pelo site Delli Portal" alt="Ícone Email"><img src='<?php echo get_theme_file_uri('/images/icone_email.png'); ?>'>e-mail: delliportal@delliportal.com.br</a></p>
+								<p><a href="https://instagram.com/delliportal" target="_blank"><img src='<?php echo get_theme_file_uri('/images/icone_instagram.png'); ?>' alt="Ícone Instagram">instagram.com/delliportal</a></p>
+								<p><a href="https://facebook.com/delliportal" target="_blank"><img src='<?php echo get_theme_file_uri('/images/icone_facebook.png'); ?>' alt="Ícone Facebook">facebook.com/delliportal</a></p>
 							</div>
 						</div>
 					</div>
